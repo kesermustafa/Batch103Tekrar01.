@@ -2,6 +2,7 @@ package day32maps;
 
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.Set;
 
 public class HashTable01 {
 
@@ -32,7 +33,10 @@ public class HashTable01 {
 
         System.out.println(myStudent);
 
-
+        Set<Map.Entry<Integer,Sutudent>> entries = myStudent.entrySet();
+        for(Map.Entry<Integer,Sutudent> w: entries){
+            System.out.println(w);
+        }
 
 
 

@@ -1,6 +1,7 @@
 package day32maps;
 
 import java.util.Hashtable;
+import java.util.Map;
 
 public class HashTable01 {
 
@@ -18,6 +19,20 @@ public class HashTable01 {
         // Hashtable'larda key ve value null olamaz Exception atar...
 //        countryPopulations.put(null, 90000000);
 //        countryPopulations.put("Turkiye", null);
+
+        Hashtable<Integer, Sutudent> myStudent = new Hashtable<>();
+
+
+        myStudent.put(1234, new Sutudent("Mustafa KESER", 1234, "keserzade@gmail,com", 95));
+        myStudent.put(2365, new Sutudent("Beyza KESER", 2365, "beyzaa@gmail,com", 98));
+
+        System.out.println(myStudent.get(1234).note);
+
+        myStudent.get(1234).setNote(1235);
+
+        System.out.println(myStudent);
+
+
 
 
 

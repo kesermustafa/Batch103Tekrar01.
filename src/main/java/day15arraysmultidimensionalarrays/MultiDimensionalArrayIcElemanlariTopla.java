@@ -25,7 +25,20 @@ public class MultiDimensionalArrayIcElemanlariTopla {
             }
             for (int j = 0; j < uzunluk; j++) {
                 toplam = arr1[i][j] + arr2[i][j];
-                System.out.println(i + ".indexdeki elemanlarin " + j + ". elemanlari toplami : "+toplam);
+                System.out.println(i + ". indexdeki elemanlarin " + j + ". elemanlari toplami : "+toplam);
+            }
+        }
+        System.out.println();
+
+        // 2.yol Math.min() methodu kullanildi
+
+        for (int i = 0; i < arr1.length; i++) {      //dis loop
+
+            uzunluk = Math.min(arr1[i].length, arr2[i].length);
+
+            for (int j = 0; j < uzunluk; j++) {
+                toplam = arr1[i][j] + arr2[i][j];
+                System.out.println( i + ". indexdeki array'lerin   " + j + ". index'deki elemanlari toplami : " + toplam);
             }
         }
 

@@ -2,7 +2,7 @@ package day14arrays;
 
 import java.util.Arrays;
 
-public class Arrays02 {
+public class Arrays02SifirlariSonaEkle {
     public static void main(String[] args) {
 
         // Example 1: [0, 2, 3, 0, 12, 0] sifirlari en sona koyunuz...

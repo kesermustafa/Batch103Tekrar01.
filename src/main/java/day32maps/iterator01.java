@@ -19,6 +19,7 @@ public class iterator01 {
         myList.add("M");
 
 
+        myList.set(2, "Y");
         // for loop kullanatak her elemanin sonuna "!" isareti koyunuz..
         // Note: loop'lar kendi baslarina "Collection"lari update edemezler..
 
@@ -26,7 +27,6 @@ public class iterator01 {
             w = w+"!";
         }
         System.out.println(myList); // [Z, K, A, J, M]
-
 
         ListIterator<String> itr = myList.listIterator();
         while (itr.hasNext()){

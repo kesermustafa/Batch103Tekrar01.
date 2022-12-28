@@ -19,7 +19,7 @@ public class iterator01 {
         myList.add("M");
 
 
-        myList.set(2, "Y");
+
         // for loop kullanatak her elemanin sonuna "!" isareti koyunuz..
         // Note: loop'lar kendi baslarina "Collection"lari update edemezler..
 

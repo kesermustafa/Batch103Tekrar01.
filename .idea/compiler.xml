@@ -9,5 +9,8 @@
         <module name="Batch103Tekrar01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Batch103Tekrar01" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
